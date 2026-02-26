@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- SEO -->
+  <!-- SEO под Яндекс и Google (оптимизировано) -->
   <title>Юрист Козин Антон | Туапсе, Агой (Агуй-Шапсуг) | Бизнес, суды, договоры</title>
   <meta name="description" content="Юридические услуги в Туапсе и Агое (Агуй-Шапсуг). Бизнес-сопровождение, суды, подготовка договоров, земельные споры. 15+ лет опыта. Бесплатная консультация.">
   <meta name="keywords" content="юрист Туапсе, юрист агой, земельные споры Туапсе, юрист Агуй-Шапсуг, сделки с недвижимостью Туапсинский район, корпоративные споры Краснодарский край, проведение общих собраний ООО, юрист по недвижимости Туапсе, юрист для бизнеса Туапсе, арбитражный юрист Туапсе, составление договоров Туапсе, представительство в суде Туапсе, юридическое сопровождение бизнеса Туапсе">
@@ -61,45 +61,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: { sans: ['Inter', 'system-ui'] },
-          colors: { accent: '#2d2d2d' } // антрацит
-        }
-      }
-    }
-  </script>
-  <style>
-    .service-description {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.3s ease-out, opacity 0.2s ease;
-      opacity: 0;
-      background-color: #f9fafb;
-      border-radius: 1rem;
-      margin-top: 0.5rem;
-    }
-    .service-description.open {
-      max-height: 500px;
-      opacity: 1;
-      padding: 1.5rem;
-    }
-    .service-card {
-      cursor: pointer;
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .service-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
-    }
-  </style>
+  <script>tailwind.config = {theme:{extend:{fontFamily:{sans:['Inter','system-ui']},colors:{accent:'#552d2d'}}}}</script>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-<!-- ГЕРОЙ – градиент от антрацита к почти чёрному -->
-<header class="bg-gradient-to-r from-[#2d2d2d] to-[#1a1a1a] py-40 text-white text-center">
+<!-- ГЕРОЙ – обновлён фон, кнопка "Набрать" -->
+<header class="bg-[linear-gradient(rgba(0,0,0,0.62),rgba(0,0,0,0.78)),url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=2400')] bg-cover py-40 text-white text-center">
   <div class="max-w-5xl mx-auto px-6">
     <h1 class="text-5xl md:text-7xl font-black mb-6" data-aos="fade-up">Юрист Антон Козин в Туапсе и Агое</h1>
     <p class="text-2xl md:text-3xl mb-10" data-aos="fade-up" data-aos-delay="200">
@@ -107,22 +74,22 @@
     </p>
     <div class="flex flex-col sm:flex-row gap-6 justify-center items-center text-2xl md:text-3xl font-bold" data-aos="fade-up" data-aos-delay="400">
       <a href="tel:+79881460097" class="hover:underline">+7 (988) 146-00-97</a>
-      <a href="https://wa.me/79773407133?text=Добрый%20день!%20Прошу%20перезвонить%20мне." class="bg-white text-[#2d2d2d] px-8 py-4 rounded-xl shadow-xl hover:shadow-2xl transition">
+      <a href="https://wa.me/79773407133?text=Добрый%20день!%20Прошу%20перезвонить%20мне." class="bg-white text-accent px-8 py-4 rounded-xl shadow-xl hover:shadow-2xl transition">
         Набрать
       </a>
     </div>
   </div>
 </header>
 
-<!-- ОБО МНЕ – иконка с новым цветом -->
+<!-- ОБО МНЕ – новое фото (гарантированно загружается) -->
 <section class="py-24 bg-white">
   <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
-    <div data-aos="fade-right" class="bg-[#2d2d2d]/10 rounded-3xl p-12 flex justify-center items-center h-80">
-      <i class="fas fa-user-tie text-9xl text-[#2d2d2d]"></i>
+    <div data-aos="fade-right">
+      <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=900&q=80" alt="Юрист Антон Козин консультирует по бизнес-вопросам и судебным спорам в Туапсе" class="rounded-3xl shadow-2xl w-full">
     </div>
     <div data-aos="fade-left">
-      <p class="text-xl text-[#2d2d2d] font-semibold mb-4">Более 15 лет практики</p>
-      <div class="text-6xl font-black text-[#2d2d2d]" id="years">0</div>
+      <p class="text-xl text-accent font-semibold mb-4">Более 15 лет практики</p>
+      <div class="text-6xl font-black text-accent" id="years">0</div>
       <p class="text-2xl font-bold mb-6">лет защищаю интересы клиентов</p>
       <p class="text-lg leading-relaxed">
         <strong>Специализируюсь на обслуживании бизнеса, судебных спорах и подготовке правовых документов.</strong> Помогаю решать земельные и корпоративные вопросы быстро и с максимальной выгодой.<br>
@@ -133,157 +100,49 @@
   </div>
 </section>
 
-<!-- ЗЕМЕЛЬНЫЕ СПОРЫ (карточки) -->
+<!-- ЗЕМЕЛЬНЫЕ И ИМУЩЕСТВЕННЫЕ СПОРЫ -->
 <section class="py-24 bg-gray-50">
   <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-5xl font-black text-center mb-16 text-[#2d2d2d]" data-aos="fade-up">Земельные и имущественные споры</h2>
-    <div class="grid md:grid-cols-3 gap-10" id="land-services">
-      <!-- Карточка 1 -->
-      <div class="service-card bg-white p-6 rounded-3xl shadow-xl" data-aos="zoom-in" onclick="toggleDescription(this)">
-        <div class="text-center">
-          <i class="fas fa-gavel text-6xl text-[#2d2d2d] mb-6"></i>
-          <p class="font-bold text-xl">Споры с соседями и границами участков</p>
-        </div>
-        <div class="service-description">
-          <p class="text-gray-700">Помогаю урегулировать конфликты по межеванию, самозахвату, неправильному установлению границ. Провожу досудебные переговоры, готовлю исковые заявления, представляю интересы в судах всех инстанций. Выезд на участок, сбор доказательств, работа с кадастровыми инженерами.</p>
-        </div>
-      </div>
-      <!-- Карточка 2 -->
-      <div class="service-card bg-white p-6 rounded-3xl shadow-xl" data-aos="zoom-in" data-aos-delay="100" onclick="toggleDescription(this)">
-        <div class="text-center">
-          <i class="fas fa-home text-6xl text-[#2d2d2d] mb-6"></i>
-          <p class="font-bold text-xl">Оформление домов, ИЖС</p>
-        </div>
-        <div class="service-description">
-          <p class="text-gray-700">Полное сопровождение оформления прав на жилые и садовые дома: подготовка техплана, подача деклараций, регистрация в Росреестре. Легализация самовольных построек, перевод садовых домов в жилые, узаконивание перепланировок.</p>
-        </div>
-      </div>
-      <!-- Карточка 3 -->
-      <div class="service-card bg-white p-6 rounded-3xl shadow-xl" data-aos="zoom-in" data-aos-delay="200" onclick="toggleDescription(this)">
-        <div class="text-center">
-          <i class="fas fa-handshake text-6xl text-[#2d2d2d] mb-6"></i>
-          <p class="font-bold text-xl">Сопровождение сделок купли-продажи, дарения</p>
-        </div>
-        <div class="service-description">
-          <p class="text-gray-700">Проверка юридической чистоты объекта, подготовка договоров, консультация по налоговым последствиям, безопасный расчёт (аккредитив/ячейка), подача документов на регистрацию. Работа с недвижимостью в Краснодарском крае и по РФ.</p>
-        </div>
-      </div>
-      <!-- Карточка 4 -->
-      <div class="service-card bg-white p-6 rounded-3xl shadow-xl" data-aos="zoom-in" data-aos-delay="300" onclick="toggleDescription(this)">
-        <div class="text-center">
-          <i class="fas fa-search-dollar text-6xl text-[#2d2d2d] mb-6"></i>
-          <p class="font-bold text-xl">Проверка недвижимости перед покупкой</p>
-        </div>
-        <div class="service-description">
-          <p class="text-gray-700">Комплексный анализ рисков: проверка правоустанавливающих документов, выявление обременений (аресты, ипотека), проверка продавца и его полномочий, история переходов прав, соответствие фактических границ кадастровым.</p>
-        </div>
-      </div>
-      <!-- Карточка 5 -->
-      <div class="service-card bg-white p-6 rounded-3xl shadow-xl" data-aos="zoom-in" data-aos-delay="400" onclick="toggleDescription(this)">
-        <div class="text-center">
-          <i class="fas fa-balance-scale text-6xl text-[#2d2d2d] mb-6"></i>
-          <p class="font-bold text-xl">Представительство в судах</p>
-        </div>
-        <div class="service-description">
-          <p class="text-gray-700">Ведение дел в судах общей юрисдикции и арбитраже по земельным, имущественным и корпоративным спорам. Составление исков, жалоб, ходатайств, участие в заседаниях, обжалование решений. Опыт более 15 лет.</p>
-        </div>
-      </div>
-      <!-- Карточка 6 -->
-      <div class="service-card bg-white p-6 rounded-3xl shadow-xl" data-aos="zoom-in" data-aos-delay="500" onclick="toggleDescription(this)">
-        <div class="text-center">
-          <i class="fas fa-file-contract text-6xl text-[#2d2d2d] mb-6"></i>
-          <p class="font-bold text-xl">Составление и экспертиза договоров</p>
-        </div>
-        <div class="service-description">
-          <p class="text-gray-700">Разработка индивидуальных договоров (аренды, купли-продажи, подряда, займа и др.), правовая экспертиза уже подписанных контрактов на предмет рисков и соответствия закону. Защита ваших интересов в договорных отношениях.</p>
-        </div>
-      </div>
+    <h2 class="text-5xl font-black text-center mb-16 text-accent" data-aos="fade-up">Земельные и имущественные споры</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="bg-white p-10 rounded-3xl shadow-xl text-center hover:shadow-2xl transition" data-aos="zoom-in"><i class="fas fa-gavel text-6xl text-accent mb-6"></i><p class="font-bold text-xl">Споры с соседями и границами участков</p></div>
+      <div class="bg-white p-10 rounded-3xl shadow-xl text-center hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="100"><i class="fas fa-home text-6xl text-accent mb-6"></i><p class="font-bold text-xl">Оформление домов, ИЖС</p></div>
+      <div class="bg-white p-10 rounded-3xl shadow-xl text-center hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="200"><i class="fas fa-handshake text-6xl text-accent mb-6"></i><p class="font-bold text-xl">Сопровождение сделок купли-продажи, дарения</p></div>
+      <div class="bg-white p-10 rounded-3xl shadow-xl text-center hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="300"><i class="fas fa-search-dollar text-6xl text-accent mb-6"></i><p class="font-bold text-xl">Проверка недвижимости перед покупкой</p></div>
+      <div class="bg-white p-10 rounded-3xl shadow-xl text-center hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="400"><i class="fas fa-balance-scale text-6xl text-accent mb-6"></i><p class="font-bold text-xl">Представительство в судах</p></div>
+      <div class="bg-white p-10 rounded-3xl shadow-xl text-center hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="500"><i class="fas fa-file-contract text-6xl text-accent mb-6"></i><p class="font-bold text-xl">Составление и экспертиза договоров</p></div>
     </div>
   </div>
 </section>
 
-<!-- КОРПОРАТИВНЫЕ СПОРЫ -->
+<!-- КОРПОРАТИВНЫЕ СПОРЫ И СОПРОВОЖДЕНИЕ БИЗНЕСА -->
 <section class="py-24 bg-white">
   <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-5xl font-black text-center mb-16 text-[#2d2d2d]" data-aos="fade-up">Корпоративные споры и сопровождение бизнеса</h2>
-    <div class="grid md:grid-cols-3 gap-10" id="corp-services">
-      <!-- Карточка 1 -->
-      <div class="service-card bg-gray-50 p-6 rounded-3xl shadow-xl" data-aos="zoom-in" onclick="toggleDescription(this)">
-        <div class="text-center">
-          <i class="fas fa-building text-6xl text-[#2d2d2d] mb-6"></i>
-          <p class="font-bold text-xl">Споры между учредителями</p>
-        </div>
-        <div class="service-description">
-          <p class="text-gray-700">Разрешение конфликтов между участниками ООО/АО, связанных с управлением, распределением прибыли, исключением участника, выходом из состава. Защита прав миноритариев, переговоры и судебные разбирательства.</p>
-        </div>
-      </div>
-      <!-- Карточка 2 -->
-      <div class="service-card bg-gray-50 p-6 rounded-3xl shadow-xl" data-aos="zoom-in" data-aos-delay="100" onclick="toggleDescription(this)">
-        <div class="text-center">
-          <i class="fas fa-users text-6xl text-[#2d2d2d] mb-6"></i>
-          <p class="font-bold text-xl">Выход из ООО, раздел долей</p>
-        </div>
-        <div class="service-description">
-          <p class="text-gray-700">Юридическое сопровождение выхода участника из общества, выдел доли в натуре, продажа доли третьим лицам, оценка действительной стоимости доли, нотариальное оформление, защита от недружественного поглощения.</p>
-        </div>
-      </div>
-      <!-- Карточка 3 -->
-      <div class="service-card bg-gray-50 p-6 rounded-3xl shadow-xl" data-aos="zoom-in" data-aos-delay="200" onclick="toggleDescription(this)">
-        <div class="text-center">
-          <i class="fas fa-gavel text-6xl text-[#2d2d2d] mb-6"></i>
-          <p class="font-bold text-xl">Обжалование решений собраний</p>
-        </div>
-        <div class="service-description">
-          <p class="text-gray-700">Признание недействительными решений общих собраний участников/акционеров, советов директоров, если они нарушают ваши права или приняты с нарушениями. Подготовка исков, доказывание существенных нарушений.</p>
-        </div>
-      </div>
-      <!-- Карточка 4 -->
-      <div class="service-card bg-gray-50 p-6 rounded-3xl shadow-xl" data-aos="zoom-in" data-aos-delay="300" onclick="toggleDescription(this)">
-        <div class="text-center">
-          <i class="fas fa-handshake-slash text-6xl text-[#2d2d2d] mb-6"></i>
-          <p class="font-bold text-xl">Корпоративные конфликты</p>
-        </div>
-        <div class="service-description">
-          <p class="text-gray-700">Урегулирование любых корпоративных споров: блокировка счетов, оспаривание крупных сделок, восстановление корпоративного контроля, взыскание убытков с директоров и участников. Медиация и судебная защита.</p>
-        </div>
-      </div>
-      <!-- Карточка 5 -->
-      <div class="service-card bg-gray-50 p-6 rounded-3xl shadow-xl" data-aos="zoom-in" data-aos-delay="400" onclick="toggleDescription(this)">
-        <div class="text-center">
-          <i class="fas fa-file-invoice-dollar text-6xl text-[#2d2d2d] mb-6"></i>
-          <p class="font-bold text-xl">Взыскание долгов</p>
-        </div>
-        <div class="service-description">
-          <p class="text-gray-700">Досудебное урегулирование и судебное взыскание задолженности с контрагентов, включая проценты и неустойки. Работа с дебиторской задолженностью, исполнительное производство, взаимодействие с приставами.</p>
-        </div>
-      </div>
-      <!-- Карточка 6 -->
-      <div class="service-card bg-gray-50 p-6 rounded-3xl shadow-xl" data-aos="zoom-in" data-aos-delay="500" onclick="toggleDescription(this)">
-        <div class="text-center">
-          <i class="fas fa-shield-alt text-6xl text-[#2d2d2d] mb-6"></i>
-          <p class="font-bold text-xl">Защита от субсидиарной ответственности</p>
-        </div>
-        <div class="service-description">
-          <p class="text-gray-700">Помощь директорам и учредителям в защите от привлечения к субсидиарной ответственности при банкротстве компании. Доказывание отсутствия вины, оспаривание требований кредиторов, минимизация личных рисков.</p>
-        </div>
-      </div>
+    <h2 class="text-5xl font-black text-center mb-16 text-accent" data-aos="fade-up">Корпоративные споры и сопровождение бизнеса</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="bg-gray-50 p-10 rounded-3xl shadow-xl text-center hover:shadow-2xl transition" data-aos="zoom-in"><i class="fas fa-building text-6xl text-accent mb-6"></i><p class="font-bold text-xl">Споры между учредителями</p></div>
+      <div class="bg-gray-50 p-10 rounded-3xl shadow-xl text-center hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="100"><i class="fas fa-users text-6xl text-accent mb-6"></i><p class="font-bold text-xl">Выход из ООО, раздел долей</p></div>
+      <div class="bg-gray-50 p-10 rounded-3xl shadow-xl text-center hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="200"><i class="fas fa-gavel text-6xl text-accent mb-6"></i><p class="font-bold text-xl">Обжалование решений собраний</p></div>
+      <div class="bg-gray-50 p-10 rounded-3xl shadow-xl text-center hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="300"><i class="fas fa-handshake-slash text-6xl text-accent mb-6"></i><p class="font-bold text-xl">Корпоративные конфликты</p></div>
+      <div class="bg-gray-50 p-10 rounded-3xl shadow-xl text-center hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="400"><i class="fas fa-file-invoice-dollar text-6xl text-accent mb-6"></i><p class="font-bold text-xl">Взыскание долгов</p></div>
+      <div class="bg-gray-50 p-10 rounded-3xl shadow-xl text-center hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="500"><i class="fas fa-shield-alt text-6xl text-accent mb-6"></i><p class="font-bold text-xl">Защита от субсидиарной ответственности</p></div>
     </div>
   </div>
 </section>
 
-<!-- АБОНЕНТСКОЕ ОБСЛУЖИВАНИЕ (градиент) -->
-<section class="py-28 bg-gradient-to-r from-[#2d2d2d] to-[#1a1a1a] text-white text-center">
+<!-- АБОНЕНТСКОЕ ОБСЛУЖИВАНИЕ БИЗНЕСА (цена изменена) -->
+<section class="py-28 bg-gradient-to-r from-accent to-red-900 text-white text-center">
   <div class="max-w-5xl mx-auto px-6">
     <h2 class="text-5xl font-black mb-10" data-aos="fade-up">Абонентское обслуживание бизнеса</h2>
     <p class="text-2xl mb-12" data-aos="fade-up" data-aos-delay="200">Юридическое сопровождение от 10 000 ₽/мес</p>
-    <a href="tel:+79881460097" class="inline-block bg-white text-[#2d2d2d] px-14 py-7 rounded-xl text-xl font-bold shadow-2xl hover:shadow-3xl transition">Подобрать тариф</a>
+    <a href="tel:+79881460097" class="inline-block bg-white text-accent px-14 py-7 rounded-xl text-xl font-bold shadow-2xl hover:shadow-3xl transition">Подобрать тариф</a>
   </div>
 </section>
 
-<!-- ЦЕНЫ -->
+<!-- ЦЕНЫ (исправлена стоимость абонентки) -->
 <section class="py-24 bg-gray-100">
   <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-5xl font-black text-center mb-16 text-[#2d2d2d]" data-aos="fade-up">Ориентировочные цены</h2>
+    <h2 class="text-5xl font-black text-center mb-16 text-accent" data-aos="fade-up">Ориентировочные цены</h2>
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
       <div class="bg-white rounded-3xl shadow-xl border-4 border-green-600 flex flex-col justify-center items-center p-4 h-32 text-center" data-aos="flip-up">
         <p class="text-2xl lg:text-3xl font-black text-green-600 leading-none">БЕСПЛАТНО</p>
@@ -314,7 +173,7 @@
 </section>
 
 <!-- КОНТАКТЫ -->
-<section class="py-32 bg-[#2d2d2d] text-white text-center">
+<section class="py-32 bg-accent text-white text-center">
   <div class="max-w-4xl mx-auto px-6">
     <h2 class="text-5xl font-black mb-10">Связаться прямо сейчас</h2>
     <p class="text-6xl font-black mb-8"><a href="tel:+79881460097" class="hover:underline">+7 (988) 146-00-97</a></p>
@@ -322,7 +181,7 @@
   </div>
 </section>
 
-<!-- Плавающая кнопка WhatsApp -->
+<!-- Плавающая кнопка WhatsApp (только мобильные) -->
 <a href="https://wa.me/79773407133" class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-green-500 hover:bg-green-600 text-white px-8 py-5 rounded-full shadow-2xl text-lg font-bold z-50 flex items-center gap-3 md:hidden">
   <i class="fab fa-whatsapp text-3xl"></i> WhatsApp
 </a>
@@ -332,13 +191,6 @@
   const c = document.getElementById('years');
   let n = 0;
   const t = setInterval(() => { if(n<=15){c.textContent=n+'+'; n++;} else clearInterval(t); }, 120);
-
-  function toggleDescription(card) {
-    const desc = card.querySelector('.service-description');
-    if (desc) {
-      desc.classList.toggle('open');
-    }
-  }
 </script>
 </body>
 </html>
